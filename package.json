@@ -15,10 +15,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "CI=false npm run build",
+    "predeploy": " npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts CI=false build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
