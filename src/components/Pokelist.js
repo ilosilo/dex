@@ -5,7 +5,6 @@ import { bindActionCreators } from "redux";
 import * as actionCreators from "../redux/actions/actionCreators";
 import { GlobalStyles } from './styleSheet';
 
-import Display from './Display';
 
 
 const Root = (props) => {

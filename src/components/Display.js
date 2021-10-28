@@ -1,9 +1,9 @@
-import React, { Component, useState } from 'react';
+import React, {  useState } from 'react';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as actionCreators from "../redux/actions/actionCreators";
 
-import styleSheet, { GlobalStyles } from './styleSheet';
+import { GlobalStyles } from './styleSheet';
 import star from '../img/star.png';
 import release from '../img/release.png';
 import ball from '../img/ball.png';
