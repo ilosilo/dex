@@ -4,7 +4,7 @@ import Root from './components/Root'
 
 function App() {
   return (
-    <Root/>
+    <div> kıps </div>
   );
 }
 
